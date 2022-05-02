@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Let Source="foo.mew" Position="0" Length="42">
+  <Keyword Type="SyntaxToken" Source="foo.mew" Position="0" Length="3" />
+  <Identifier Name="foo" Source="foo.mew" Position="4" Length="3" />
+  <Equal Type="SyntaxToken" Source="foo.mew" Position="8" Length="1" />
+  <Initializer>
+    <New Source="foo.mew" Position="14" Length="28">
+      <Type>
+        <Identifier Lexeme="Bar" Source="foo.mew" Position="14" Length="3" />
+      </Type>
+      <Assignments>
+        <Assignment Source="foo.mew" Position="21" Length="8">
+          <Identifier Name="baz" Source="foo.mew" Position="21" Length="3" />
+          <Equal Source="foo.mew" Position="24" Length="1" />
+          <Expression>
+            <Identifier Lexeme="qux" Source="foo.mew" Position="26" Length="3" />
+          </Expression>
+        </Assignment>
+        <Assignment Source="foo.mew" Position="32" Length="8">
+          <Identifier Name="corgi" Source="foo.mew" Position="32" Length="5" />
+          <Equal Source="foo.mew" Position="37" Length="1" />
+          <Expression>
+            <IntegerLiteral Value="3" Source="foo.mew" Position="39" Length="1" />
+          </Expression>
+        </Assignment>
+      </Assignments>
+    </New>
+  </Initializer>
+</Let>

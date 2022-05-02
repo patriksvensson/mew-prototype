@@ -1,0 +1,8 @@
+.locals (System.String V_0)
+IL_0000: ldstr "Hello World!"
+IL_0005: stloc V_0
+IL_0009: ldstr "Bar"
+IL_000e: dup
+IL_000f: stloc V_0
+IL_0013: pop
+IL_0014: ret

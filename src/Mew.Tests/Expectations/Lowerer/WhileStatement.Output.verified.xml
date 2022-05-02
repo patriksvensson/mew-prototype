@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Statements>
+  <Let Name="corgi" Value="0" />
+  <Goto Name="continue1" />
+  <Label Name="Label1" />
+  <BinaryExpression>corgi + 1</BinaryExpression>
+  <Label Name="continue1" />
+  <ConditionalGoto If="corgi != 3" Is="True" Goto="Label1" />
+  <Label Name="break1" />
+</Statements>

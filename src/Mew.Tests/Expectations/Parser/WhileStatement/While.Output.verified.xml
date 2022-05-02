@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<While Position="0" Length="27">
+  <Keyword Type="SyntaxToken" Position="0" Length="5" />
+  <Condition Position="14" Length="13">
+    <Binary Operator="GreaterThan" Position="6" Length="7">
+      <Left>
+        <Identifier Lexeme="foo" Position="6" Length="3" />
+      </Left>
+      <Right>
+        <IntegerLiteral Value="2" Position="12" Length="1" />
+      </Right>
+    </Binary>
+  </Condition>
+  <Body Position="14" Length="13">
+    <Block Position="14" Length="13">
+      <Assignment Position="17" Length="7">
+        <Identifier Name="foo" Position="17" Length="3" />
+        <Equal Position="21" Length="1" />
+        <Expression>
+          <IntegerLiteral Value="2" Position="23" Length="1" />
+        </Expression>
+      </Assignment>
+    </Block>
+  </Body>
+</While>

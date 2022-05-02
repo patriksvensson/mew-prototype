@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Struct Source="foo.mew" Position="0" Length="14">
+  <Keyword Type="SyntaxToken" Source="foo.mew" Position="0" Length="6" />
+  <Name Identifier="foo" Source="foo.mew" Position="7" Length="3" />
+</Struct>

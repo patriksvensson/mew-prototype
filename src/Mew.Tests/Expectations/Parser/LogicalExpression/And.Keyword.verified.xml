@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Let Position="0" Length="15">
+  <Keyword Type="SyntaxToken" Position="0" Length="3" />
+  <Identifier Name="x" Position="4" Length="1" />
+  <Equal Type="SyntaxToken" Position="6" Length="1" />
+  <Initializer>
+    <Logical Operator="And" Position="8" Length="7">
+      <Left>
+        <IntegerLiteral Value="1" Position="8" Length="1" />
+      </Left>
+      <Right>
+        <IntegerLiteral Value="2" Position="14" Length="1" />
+      </Right>
+    </Logical>
+  </Initializer>
+</Let>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Let Source="foo.mew" Position="0" Length="29">
+  <Keyword Type="SyntaxToken" Source="foo.mew" Position="0" Length="3" />
+  <Identifier Name="foo" Source="foo.mew" Position="4" Length="3" />
+  <Equal Type="SyntaxToken" Source="foo.mew" Position="8" Length="1" />
+  <Initializer>
+    <MemberAccess Source="foo.mew" Position="10" Length="19">
+      <Caller>
+        <Identifier Lexeme="bar" Source="foo.mew" Position="10" Length="3" />
+      </Caller>
+      <Target>
+        <MemberAccess Source="foo.mew" Position="14" Length="15">
+          <Caller>
+            <Identifier Lexeme="baz" Source="foo.mew" Position="14" Length="3" />
+          </Caller>
+          <Target>
+            <MemberAccess Source="foo.mew" Position="18" Length="11">
+              <Caller>
+                <Identifier Lexeme="qux" Source="foo.mew" Position="18" Length="3" />
+              </Caller>
+              <Target>
+                <FunctionCall Source="foo.mew" Position="22" Length="7">
+                  <Callee Name="corgi" Source="foo.mew" Position="22" Length="5" />
+                  <Arguments />
+                </FunctionCall>
+              </Target>
+            </MemberAccess>
+          </Target>
+        </MemberAccess>
+      </Target>
+    </MemberAccess>
+  </Initializer>
+</Let>

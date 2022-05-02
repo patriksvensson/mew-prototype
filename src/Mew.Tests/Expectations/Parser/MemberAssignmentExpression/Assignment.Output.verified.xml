@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MemberAssignment Source="foo.mew" Position="0" Length="11">
+  <Target>
+    <MemberAccess Source="foo.mew" Position="0" Length="7">
+      <Caller>
+        <Identifier Lexeme="foo" Source="foo.mew" Position="0" Length="3" />
+      </Caller>
+      <Target>
+        <Identifier Lexeme="bar" Source="foo.mew" Position="4" Length="3" />
+      </Target>
+    </MemberAccess>
+    <Equal Source="foo.mew" Position="8" Length="1" />
+    <Expression>
+      <IntegerLiteral Value="1" Source="foo.mew" Position="10" Length="1" />
+    </Expression>
+  </Target>
+</MemberAssignment>

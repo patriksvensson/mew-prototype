@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Loop Position="0" Length="17">
+  <Keyword Type="SyntaxToken" Position="0" Length="4" />
+  <Body Position="5" Length="12">
+    <Block Position="5" Length="12">
+      <Assignment Position="7" Length="7">
+        <Identifier Name="foo" Position="7" Length="3" />
+        <Equal Position="11" Length="1" />
+        <Expression>
+          <IntegerLiteral Value="2" Position="13" Length="1" />
+        </Expression>
+      </Assignment>
+    </Block>
+  </Body>
+</Loop>

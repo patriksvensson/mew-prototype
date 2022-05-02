@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExternalFunctionDeclaration Position="0" Length="34">
+  <Name Identifier="foo" Position="10" Length="3" />
+  <Returns>
+    <Identifier Lexeme="string" Position="38" Length="6" />
+  </Returns>
+  <Parameters>
+    <Parameter Position="14" Length="8">
+      <Name Identifier="bar" Position="14" Length="3" />
+      <Type Position="19" Length="3" Identifier="int" />
+    </Parameter>
+    <Parameter Position="24" Length="9">
+      <Name Identifier="qux" Position="24" Length="3" />
+      <Type Position="29" Length="4" Identifier="bool" />
+    </Parameter>
+  </Parameters>
+</ExternalFunctionDeclaration>

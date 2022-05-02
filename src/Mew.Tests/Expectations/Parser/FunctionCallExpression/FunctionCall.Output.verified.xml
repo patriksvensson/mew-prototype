@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FunctionCall Position="0" Length="8">
+  <Callee Name="foo" Position="0" Length="3" />
+  <Arguments>
+    <Identifier Lexeme="bar" Position="4" Length="3" />
+  </Arguments>
+</FunctionCall>

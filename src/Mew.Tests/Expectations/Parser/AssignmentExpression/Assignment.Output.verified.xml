@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assignment Position="0" Length="7">
+  <Identifier Name="foo" Position="0" Length="3" />
+  <Equal Position="4" Length="1" />
+  <Expression>
+    <IntegerLiteral Value="1" Position="6" Length="1" />
+  </Expression>
+</Assignment>

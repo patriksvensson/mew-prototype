@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Let Position="0" Length="13">
+  <Keyword Type="SyntaxToken" Position="0" Length="3" />
+  <Identifier Name="x" Position="4" Length="1" />
+  <Equal Type="SyntaxToken" Position="6" Length="1" />
+  <Initializer>
+    <BooleanLiteral Value="False" Position="8" Length="5" />
+  </Initializer>
+</Let>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Let Source="foo.mew" Position="0" Length="17">
+  <Keyword Type="SyntaxToken" Source="foo.mew" Position="0" Length="3" />
+  <Identifier Name="foo" Source="foo.mew" Position="4" Length="3" />
+  <Equal Type="SyntaxToken" Source="foo.mew" Position="8" Length="1" />
+  <Initializer>
+    <MemberAccess Source="foo.mew" Position="10" Length="7">
+      <Caller>
+        <Identifier Lexeme="bar" Source="foo.mew" Position="10" Length="3" />
+      </Caller>
+      <Target>
+        <Identifier Lexeme="baz" Source="foo.mew" Position="14" Length="3" />
+      </Target>
+    </MemberAccess>
+  </Initializer>
+</Let>

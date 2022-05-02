@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Struct Source="foo.mew" Position="0" Length="41">
+  <Keyword Type="SyntaxToken" Source="foo.mew" Position="0" Length="6" />
+  <Name Identifier="foo" Source="foo.mew" Position="7" Length="3" />
+  <Fields>
+    <Field Source="foo.mew" Position="16" Length="9">
+      <Name Identifier="bar" Source="foo.mew" Position="16" Length="3" />
+      <Type Source="foo.mew" Position="21" Length="4" Identifier="bool" />
+    </Field>
+    <Field Source="foo.mew" Position="30" Length="8">
+      <Name Identifier="baz" Source="foo.mew" Position="30" Length="3" />
+      <Type Source="foo.mew" Position="35" Length="3" Identifier="int" />
+    </Field>
+  </Fields>
+</Struct>

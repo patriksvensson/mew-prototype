@@ -1,0 +1,15 @@
+global using System;
+global using System.ComponentModel;
+global using System.Diagnostics.CodeAnalysis;
+global using System.Globalization;
+global using Errata;
+global using Mew.CodeAnalysis;
+global using Mew.CodeAnalysis.Emit;
+global using Mew.CodeAnalysis.Semantics;
+global using Mew.Commands;
+global using Mew.Features;
+global using Mew.Infrastructure;
+global using Microsoft.Extensions.DependencyInjection;
+global using Spectre.Console;
+global using Spectre.Console.Cli;
+global using Spectre.IO;

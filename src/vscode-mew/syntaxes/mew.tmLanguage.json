@@ -1,0 +1,147 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "scopeName": "source.mew",
+	"patterns": [
+		{
+            "comment": "line comments",
+            "name": "comment.line.double-slash.mew",
+            "match": "\\s*//.*"
+		},
+		{
+			"comment": "Storage (type)",
+			"name": "storage.type.mew",
+			"match": "\\b(struct|trait|fn|int|double|string|bool)\\b"
+		},
+		{
+			"comment": "Storage (modifier)",
+			"name": "storage.modifier.mew",
+			"match": "\\b(pub)\\b"
+		},
+		{
+			"comment": "Keywords (flow control)",
+			"name": "keyword.control.mew",
+			"match": "\\b(return|loop|if|else|break|while)\\b"
+		},
+		{
+			"comment": "Keywords (other)",
+			"name": "keyword.other.mew",
+			"match": "\\b(let)\\b"
+		},
+		{
+			"comment": "Built-in functions",
+			"match": "\\b(print)\\b", 
+			"name": "support.function.mew"
+		},
+		{
+			"comment": "Strings",
+			"name": "string.quoted.double.mew",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.mew",
+					"match": "\\\\."
+				}
+			]
+		},
+		{
+			"comment": "Comparison operators",
+			"name": "keyword.operator.comparison.mew",
+			"match": "==|!="
+		},
+		{
+			"comment": "Relational operators",
+			"name": "keyword.operator.relational.mew",
+			"match": "<=|>=|<>|<|>"
+		},
+		{
+			"comment": "Logical operators",
+			"name": "keyword.operator.logical.mew",
+			"match": "\\!|&&|\\|\\||and|or"
+		},
+		{
+			"comment": "Assignment",
+			"name": "keyword.operator.assignment.mew",
+			"match": "\\="
+		},
+		{
+			"comment": "Arithmetic operators",
+			"name": "keyword.operator.arithmetic.mew",
+			"match": "\\*|/|-|\\+"
+		},
+		{
+			"include": "#null-literal"
+		},
+		{
+			"comment": "Boolean true",
+			"name": "constant.language.boolean.true.mew",
+			"match": "\\b(true)\\b"
+		},
+		{
+			"comment": "Boolean false",
+			"name": "constant.language.boolean.false.mew",
+			"match": "\\b(false)\\b"
+		},
+		{
+			"comment": "Numeric literal",
+			"match": "(?x)\n(?<!\\$)(?:\n  (?:\\b[0-9][0-9_]*(\\.)[0-9][0-9_]*[eE][+-]?[0-9][0-9_]*(n)?\\b)| # 1.1E+3\n  (?:\\b[0-9][0-9_]*(\\.)[eE][+-]?[0-9][0-9_]*(n)?\\b)|             # 1.E+3\n  (?:\\B(\\.)[0-9][0-9_]*[eE][+-]?[0-9][0-9_]*(n)?\\b)|             # .1E+3\n  (?:\\b[0-9][0-9_]*[eE][+-]?[0-9][0-9_]*(n)?\\b)|                 # 1E+3\n  (?:\\b[0-9][0-9_]*(\\.)[0-9][0-9_]*(n)?\\b)|                      # 1.1\n  (?:\\b[0-9][0-9_]*(\\.)(n)?\\B)|                                  # 1.\n  (?:\\B(\\.)[0-9][0-9_]*(n)?\\b)|                                  # .1\n  (?:\\b[0-9][0-9_]*(n)?\\b(?!\\.))                                 # 1\n)(?!\\$)",
+			"captures": {
+				"0": {
+					"name": "constant.numeric.decimal.mew"
+				},
+				"1": {
+					"name": "meta.delimiter.decimal.period.mew"
+				},
+				"2": {
+					"name": "storage.type.numeric.bigint.mew"
+				},
+				"3": {
+					"name": "meta.delimiter.decimal.period.mew"
+				},
+				"4": {
+					"name": "storage.type.numeric.bigint.mew"
+				},
+				"5": {
+					"name": "meta.delimiter.decimal.period.mew"
+				},
+				"6": {
+					"name": "storage.type.numeric.bigint.mew"
+				},
+				"7": {
+					"name": "storage.type.numeric.bigint.mew"
+				},
+				"8": {
+					"name": "meta.delimiter.decimal.period.mew"
+				},
+				"9": {
+					"name": "storage.type.numeric.bigint.mew"
+				},
+				"10": {
+					"name": "meta.delimiter.decimal.period.mew"
+				},
+				"11": {
+					"name": "storage.type.numeric.bigint.mew"
+				},
+				"12": {
+					"name": "meta.delimiter.decimal.period.mew"
+				},
+				"13": {
+					"name": "storage.type.numeric.bigint.mew"
+				},
+				"14": {
+					"name": "storage.type.numeric.bigint.mew"
+				}
+			}
+		},
+		{
+			"comment": "Variables",
+			"name": "variable.other.mew",
+			"match": "\\b([a-zA-Z0-9]+)\\b"
+		},
+		{
+			"comment": "Null literal",
+			"name": "constant.language.null.mew",
+			"match": "\\b(null)\\b"
+		}
+	]
+}

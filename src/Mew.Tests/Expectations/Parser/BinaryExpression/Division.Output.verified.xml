@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Let Position="0" Length="14">
+  <Keyword Type="SyntaxToken" Position="0" Length="3" />
+  <Identifier Name="x" Position="4" Length="1" />
+  <Equal Type="SyntaxToken" Position="6" Length="1" />
+  <Initializer>
+    <Binary Operator="Divide" Position="8" Length="6">
+      <Left>
+        <IntegerLiteral Value="1" Position="8" Length="1" />
+      </Left>
+      <Right>
+        <IntegerLiteral Value="22" Position="12" Length="2" />
+      </Right>
+    </Binary>
+  </Initializer>
+</Let>

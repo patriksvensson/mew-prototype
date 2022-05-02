@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<If Source="foo.mew" Position="0" Length="11">
+  <Keyword Type="SyntaxToken" Source="foo.mew" Position="0" Length="2" />
+  <Then>
+    <Block />
+  </Then>
+</If>

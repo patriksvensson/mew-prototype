@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<If Position="0" Length="24">
+  <Keyword Type="SyntaxToken" Position="0" Length="2" />
+  <Then>
+    <Block Position="12" Length="12">
+      <Assignment Position="14" Length="7">
+        <Identifier Name="foo" Position="14" Length="3" />
+        <Equal Position="18" Length="1" />
+        <Expression>
+          <IntegerLiteral Value="2" Position="20" Length="1" />
+        </Expression>
+      </Assignment>
+    </Block>
+  </Then>
+</If>

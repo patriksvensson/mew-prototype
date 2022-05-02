@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Let Position="0" Length="12">
+  <Keyword Type="SyntaxToken" Position="0" Length="3" />
+  <Identifier Name="x" Position="4" Length="1" />
+  <Equal Type="SyntaxToken" Position="6" Length="1" />
+  <Initializer>
+    <Group Position="8" Length="4">
+      <Left Position="8" Length="1" />
+      <IntegerLiteral Value="32" Position="9" Length="2" />
+      <Right Position="11" Length="1" />
+    </Group>
+  </Initializer>
+</Let>

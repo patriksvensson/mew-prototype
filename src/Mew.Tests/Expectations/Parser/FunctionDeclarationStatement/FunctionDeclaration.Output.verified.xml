@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FunctionDeclaration Position="0" Length="47">
+  <Name Identifier="foo" Position="3" Length="3" />
+  <Parameters>
+    <Parameter Position="7" Length="8">
+      <Name Identifier="bar" Position="7" Length="3" />
+      <Type Position="12" Length="3" Identifier="int" />
+    </Parameter>
+    <Parameter Position="17" Length="9">
+      <Name Identifier="qux" Position="17" Length="3" />
+      <Type Position="22" Length="4" Identifier="bool" />
+    </Parameter>
+  </Parameters>
+  <Body Position="28" Length="19">
+    <Block Position="28" Length="19">
+      <Let Position="31" Length="13">
+        <Keyword Type="SyntaxToken" Position="31" Length="3" />
+        <Identifier Name="corgi" Position="35" Length="5" />
+        <Equal Type="SyntaxToken" Position="41" Length="1" />
+        <Initializer>
+          <IntegerLiteral Value="1" Position="43" Length="1" />
+        </Initializer>
+      </Let>
+    </Block>
+  </Body>
+</FunctionDeclaration>

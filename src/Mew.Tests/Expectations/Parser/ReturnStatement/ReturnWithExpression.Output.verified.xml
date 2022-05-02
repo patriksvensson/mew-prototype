@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return Position="0" Length="17">
+  <Binary Operator="Equal" Position="7" Length="10">
+    <Left>
+      <Identifier Lexeme="foo" Position="7" Length="3" />
+    </Left>
+    <Right>
+      <Identifier Lexeme="bar" Position="14" Length="3" />
+    </Right>
+  </Binary>
+</Return>

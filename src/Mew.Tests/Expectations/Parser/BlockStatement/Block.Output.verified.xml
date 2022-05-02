@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Block Position="0" Length="29">
+  <Let Position="2" Length="13">
+    <Keyword Type="SyntaxToken" Position="2" Length="3" />
+    <Identifier Name="foo" Position="6" Length="3" />
+    <Equal Type="SyntaxToken" Position="10" Length="1" />
+    <Initializer>
+      <Identifier Lexeme="bar" Position="12" Length="3" />
+    </Initializer>
+  </Let>
+  <Assignment Position="17" Length="9">
+    <Identifier Name="baz" Position="17" Length="3" />
+    <Equal Position="21" Length="1" />
+    <Expression>
+      <Identifier Lexeme="qux" Position="23" Length="3" />
+    </Expression>
+  </Assignment>
+</Block>

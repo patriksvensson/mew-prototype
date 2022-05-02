@@ -1,0 +1,6 @@
+.locals (System.Boolean V_0)
+IL_0000: ldc.i8 32
+IL_0009: ldstr "hello"
+IL_000e: call System.Boolean Program::bar(System.Int64,System.String)
+IL_0013: stloc V_0
+IL_0017: ret

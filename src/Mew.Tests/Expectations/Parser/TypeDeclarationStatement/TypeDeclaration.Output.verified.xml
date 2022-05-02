@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TypeDeclaration Position="0" Length="12">
+  <Name Identifier="foo" Position="5" Length="3" />
+</TypeDeclaration>
